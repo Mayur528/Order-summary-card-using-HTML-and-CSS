@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;800;900&display=swap');
+
+body{
+  margin:50px;
+ padding:0;
+  background:hsl(225, 100%, 94%);
+ font-family: 'Red Hat Display', sans-serif;
+}
+
+.container{
+  height:450px;
+  width:250px;
+  background:white;
+  border-radius:10px;
+  text-align:center;
+  box-shadow:5px 5px 5px 5px hsl(230, 100%, 90%);
+}
+img{
+  width:250px;
+  border-radius:10px 10px 0 0;
+}
+h3{
+  font-weight:900;
+  margin-top:16px;
+  margin-bottom:0;
+  color:hsl(223, 47%, 23%);
+}
+p{
+  font-size:10px;
+  color:#9498C9;
+}
+
+
+.description{
+   width:200px;
+   line-height:160%;
+   font-size:12px;
+   display:inline-block;
+}
+button{
+  border:none;
+  font-family: 'Red Hat Display', sans-serif;
+  text-align:center;
+}
+.music-logo{
+ width:40px;
+ height:40px;
+}
+.container .pricing {
+  display: flex;
+  padding: 13px 13px 20px 13px;
+  width:200px;
+  height:40px;
+  margin:0px 0px 10px 10px;
+  background:hsl(380, 80%, 98%);
+  border-radius:12px;
+}
+h4 {
+   margin:3px 0 0 0;
+   font-size: 12px;
+   color:hsl(223, 47%, 23%);
+ }
+
+.annual-plan{
+  padding:0 20px 0 20px;
+}
+ 
+.annual-plan p{
+  padding:1px 0 1px 1px;
+  margin-top:0;
+  font-size:12px;
+ }
+
+.pricing button{
+  font-size:11px;
+  background:hsl(380, 70%, 98%);
+  color:hsl(245, 75%, 52%);
+  font-weight: 700;
+  text-decoration:underline;
+  cursor:pointer;
+}
+.payment{
+  width:220px;
+  height:43px;
+  font-size:15px;
+  background: hsl(245, 75%, 52%);
+  border-radius:8px;
+  color:white;
+  font-style:bold;
+  box-shadow:0px 10px 5px hsl(245,5%, 80%);
+  font-weight:700;
+  cursor:pointer;
+
+}
+.cancel{
+  padding-top: 20px;
+  color:hsl(224, 23%, 55%);
+  background:none;  
+  font-weight:700;
+  cursor:pointer;
+}
+.payment:hover{
+  color:rgb(138, 125, 197);
+}
+.cancel:hover{
+  color:hsl(223, 47%, 23%);
+}
